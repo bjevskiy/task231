@@ -23,8 +23,8 @@ public class User {
 
     @CreationTimestamp
     @Column(updatable = false)
-
     private Date creationDate;
+
     @UpdateTimestamp
     private Date lastModify;
 
